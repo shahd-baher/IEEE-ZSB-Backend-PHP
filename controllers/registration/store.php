@@ -1,10 +1,14 @@
 <?php
+
 use Core\App;
 use Core\Database;
 use Core\Validator;
+
 $email = $_POST['email'];
 $password = $_POST['password'];
+
 $errors = [];
+
 if (! Validator::email($email)) {
     $errors['email'] = 'Provide a valid email';
 }
