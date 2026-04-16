@@ -44,13 +44,14 @@ class User {
     }
 }
 ```
-- **Summary**  
-|**Feature**|`$this`|`self::`|  
-|:-----:|:-----:|:------:|  
-|**Works with**|Object|Class|  
-|**Used with**|Non-static members|Static members|  
-|**Needs object?**|Yes|No|  
-|**Operator**|Object operator (->)|Scope Resolution Operator (::)|
+- **Summary**
+  
+|Feature|`$this`|`self::`|  
+|:-------:|:------:|:--------:|  
+|Works with|Object|Class|  
+|Used with|Non-static members|Static members|  
+|Needs object?|Yes|No|  
+|Operator|Object operator (->)|Scope Resolution Operator (::)|
 ---
 ## 3. Access Modifiers (Encapsulation)
 - **`Public`**
